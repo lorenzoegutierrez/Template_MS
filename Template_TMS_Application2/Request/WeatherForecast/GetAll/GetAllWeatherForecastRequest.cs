@@ -1,6 +1,6 @@
-﻿using MediatR;
+﻿using Template_TMS;
 
-using Template_TMS;
+using MediatR;
 
 namespace Template_TMS_Application.Request.GetAll
 {

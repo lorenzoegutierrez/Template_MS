@@ -1,5 +1,4 @@
 ﻿using Flunt.Notifications;
-using Flunt.Validations;
 
 using MediatR;
 
@@ -9,7 +8,6 @@ namespace Template_TMS_Application.Request.WeatherForecast.Insert
     {        
         public int TemperatureC { get; set; }
 
-        public string? Descripcion { get; set; }              
-
+        public string? Descripcion { get; set; }
     }
 }

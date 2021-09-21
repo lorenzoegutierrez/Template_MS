@@ -1,8 +1,7 @@
-﻿using Flunt.Notifications;
+﻿using Template_TMS_Infraestructure.DatabaseInMemory;
+using Template_TMS_Infraestructure.DataContext;
 
 using MediatR;
-using Template_TMS_Infraestructure.DatabaseInMemory;
-using Template_TMS_Infraestructure.DataContext;
 
 namespace Template_TMS_Application.Request.WeatherForecast.Insert
 {
@@ -31,8 +30,7 @@ namespace Template_TMS_Application.Request.WeatherForecast.Insert
 
             _repository.Add(element);
                 
-            return await _repository.SaveChangesAsync();
-            
+            return await _repository.SaveChangesAsync();            
         }
     }
 }

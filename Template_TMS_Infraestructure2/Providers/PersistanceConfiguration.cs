@@ -11,8 +11,6 @@ namespace Template_TMS_Infraestructure.Providers
     {
         public static IServiceCollection ConfigurePersistenceServices(this IServiceCollection services)
         {
-            //services.AddMongo();
-
             services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase(databaseName: "WeatherForecast"));            
             
             return services;

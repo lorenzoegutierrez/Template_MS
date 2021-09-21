@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -14,10 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Template_TMS_Domain2\Template_TMS_Domain.csproj" />
     <ProjectReference Include="..\Template_TMS_Infraestructure2\Template_TMS_Infraestructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Mappings\" />
   </ItemGroup>
 
 </Project>

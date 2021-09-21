@@ -25,12 +25,6 @@ namespace Template_TMS_Infraestructure.Providers
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.UseCors();
-            //app.MapControllers();
-
-            /*app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });*/
 
             return app;
         }

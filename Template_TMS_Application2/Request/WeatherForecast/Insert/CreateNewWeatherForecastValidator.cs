@@ -1,5 +1,4 @@
-﻿
-using FluentValidation;
+﻿using FluentValidation;
 
 namespace Template_TMS_Application.Request.WeatherForecast.Insert
 {
@@ -12,7 +11,6 @@ namespace Template_TMS_Application.Request.WeatherForecast.Insert
 
             RuleFor(x => x.Descripcion)
                 .NotNull();
-
         }
     }
 }

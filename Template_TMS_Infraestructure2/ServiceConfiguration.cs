@@ -21,20 +21,15 @@ public static class ServiceConfiguration
 
         services.ConfigureKafkaServices();
         
-        services.ConfigurePersistenceServices();
-
-        //services.Configure<ConsentsConfig>(configuration.GetSection("ConsentsConfig"));
+        services.ConfigurePersistenceServices();        
 
         return services;
     }
 
     public static IApplicationBuilder Configure(
         this IApplicationBuilder app,
-        WebApplication hostEnvironment/*,
-        IConfiguration configuration*/
-        )
-    {
-        //app.UsePathBase(configuration["BasePath"]);
+        WebApplication hostEnvironment)
+    {        
         app.ConfigureMvc(hostEnvironment);
 
         return app;

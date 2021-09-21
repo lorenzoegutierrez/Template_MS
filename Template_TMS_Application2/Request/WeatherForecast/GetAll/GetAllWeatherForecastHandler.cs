@@ -1,11 +1,8 @@
-﻿using AutoMapper;
-using AutoMapper.QueryableExtensions;
-
-using MediatR;
-
-using Template_TMS;
-
+﻿using Template_TMS;
 using Template_TMS_Infraestructure.DataContext;
+
+using AutoMapper;
+using MediatR;
 
 namespace Template_TMS_Application.Request.GetAll
 {

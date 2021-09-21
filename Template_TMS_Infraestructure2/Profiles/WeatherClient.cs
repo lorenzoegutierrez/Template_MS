@@ -1,9 +1,7 @@
-﻿
-using AutoMapper;
-
-using Template_TMS;
-
+﻿using Template_TMS;
 using Template_TMS_Infraestructure.DatabaseInMemory;
+
+using AutoMapper;
 
 namespace Template_TMS_Infraestructure.Profiles
 {

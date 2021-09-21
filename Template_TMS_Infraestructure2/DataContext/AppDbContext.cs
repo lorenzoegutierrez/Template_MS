@@ -16,7 +16,6 @@ namespace Template_TMS_Infraestructure.DataContext
         {
 
         }
-
-        public DbSet<WeatherForecastDb> WeatherForecast { get; set; }
+        public DbSet<WeatherForecastDb>? WeatherForecast { get; set; }
     }
 }

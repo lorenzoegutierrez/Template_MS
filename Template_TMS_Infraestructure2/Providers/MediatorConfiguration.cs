@@ -1,8 +1,7 @@
 ﻿using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
 
 using MediatR;
-
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Template_TMS_Infraestructure.Providers
 {
