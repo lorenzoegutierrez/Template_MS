@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+
+using Template_TMS_Infraestructure.DatabaseInMemory;
+using Template_TMS_Infraestructure.DataContext;
 
 namespace Template_TMS_Infraestructure.Providers
 {
@@ -12,8 +11,8 @@ namespace Template_TMS_Infraestructure.Providers
     {
         public static IServiceCollection ConfigurePersistenceServices(this IServiceCollection services)
         {
-            //services.AddMongo();
-
+            services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase(databaseName: "WeatherForecast"));            
+            
             return services;
         }
     }

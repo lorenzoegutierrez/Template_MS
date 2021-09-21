@@ -50,7 +50,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Archivos varios",
       "ColorIndex": -1
+    },
+    "5766f93d-95a4-4e21-82cd-9f8aeb6f2a59": {
+      "ProjectGuid": "5766f93d-95a4-4e21-82cd-9f8aeb6f2a59",
+      "DisplayName": "Template_TMS_Application",
+      "ColorIndex": 9
+    },
+    "1bf40d89-ca2a-4e23-80c8-ac1e55379ca9": {
+      "ProjectGuid": "1bf40d89-ca2a-4e23-80c8-ac1e55379ca9",
+      "DisplayName": "Template_TMS_Domain",
+      "ColorIndex": 10
+    },
+    "20531a05-bea3-4a5c-b4b7-91e5b60943b9": {
+      "ProjectGuid": "20531a05-bea3-4a5c-b4b7-91e5b60943b9",
+      "DisplayName": "Template_TMS_Infraestructure",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 12
 }

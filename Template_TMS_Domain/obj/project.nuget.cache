@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "r/tYmfFOsgHreAUsEHw3QtbhJRzMUoMH3NLh32Kdc0tNhx+vbY/ibHCO2Gk0RVUIzyBnaCk2jSEa6A7kEVO2Sw==",
+  "dgSpecHash": "Aa3Dddh8b4lYBOVHk0tW0lQDffPAIeV61wB8eZueyJbHsn2fKdKv5zxL3j2lEV3QAqczGBtk0KBw7qS3rK49AA==",
   "success": true,
   "projectFilePath": "C:\\Users\\lgutierrez\\source\\repos\\Template_TMS\\Template_TMS_Domain\\Template_TMS_Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lgutierrez\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\lgutierrez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\lgutierrez\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

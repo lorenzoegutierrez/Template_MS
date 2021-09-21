@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E98iB40QtiBUpYVj/361XmR5nEH9FObEVMwaUhnpPrf7pmWL8gZD2ox8NQVCoODNaJlfH9TUC0GGx7sRliZ1Uw==",
+  "dgSpecHash": "WEbyKJBtPZWwqYZDII23CvV7t2NV73ICQGh6pFxfu8dU+CEFrUHZ4lCGysRsQuxtRfpzvWjjHucsyPQsJotiHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lgutierrez\\source\\repos\\Template_TMS\\Template_TMS\\Template_TMS_Api.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,6 @@
     "C:\\Users\\lgutierrez\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\5.0.0\\microsoft.extensions.options.configurationextensions.5.0.0.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\lgutierrez\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.1\\swashbuckle.aspnetcore.6.2.1.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.1\\swashbuckle.aspnetcore.swagger.6.2.1.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.1\\swashbuckle.aspnetcore.swaggergen.6.2.1.nupkg.sha512",

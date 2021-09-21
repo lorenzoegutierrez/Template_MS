@@ -1,31 +1,36 @@
 ﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 using Template_TMS_Infraestructure.Providers;
 
-public static class ServiceConfiguration2
+public static class ServiceConfiguration
 {
-    public static IServiceCollection ConfigureServices2(this IServiceCollection services)
+    public static IServiceCollection ConfigureServices(this IServiceCollection services)
     {
+        services.AddAutoMapper(typeof(ServiceConfiguration));
+        services.AddControllers();
+
+        services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1", new() { Title = "Template_TMS", Version = "v1" });
+        });
+
+        services.ConfigureMediatrServices();
+
         services.ConfigureMvcServices();
 
         services.ConfigureKafkaServices();
-        services.ConfigureMediatrServices();
-        services.ConfigurePersistenceServices();
-
-        //services.Configure<ConsentsConfig>(configuration.GetSection("ConsentsConfig"));
+        
+        services.ConfigurePersistenceServices();        
 
         return services;
     }
 
     public static IApplicationBuilder Configure(
         this IApplicationBuilder app,
-        IConfiguration configuration
-        )
-    {
-        app.UsePathBase(configuration["BasePath"]);
-        app.ConfigureMvc();
+        WebApplication hostEnvironment)
+    {        
+        app.ConfigureMvc(hostEnvironment);
 
         return app;
     }

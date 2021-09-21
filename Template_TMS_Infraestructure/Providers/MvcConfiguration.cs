@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Template_TMS_Infraestructure.Providers
 {
@@ -13,21 +8,23 @@ namespace Template_TMS_Infraestructure.Providers
     {
         public static IServiceCollection ConfigureMvcServices(this IServiceCollection services)
         {
-            /*services.AddCors();
-            services.AddSuperPresenter();
-            */
+            services.AddCors();           
+
             return services;
         }
 
-        public static IApplicationBuilder ConfigureMvc(this IApplicationBuilder app)
+        public static IApplicationBuilder ConfigureMvc(this IApplicationBuilder app, WebApplication env)
         {
-            /*app.UseRouting();
-            app.UseCors();
-
-            app.UseEndpoints(endpoints =>
+            if (env.Environment.IsDevelopment())
             {
-                endpoints.MapControllers();
-            });*/
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Template_TMS v1"));
+            }
+
+            app.UseRouting();
+            app.UseHttpsRedirection();
+            app.UseAuthorization();
+            app.UseCors();
 
             return app;
         }
