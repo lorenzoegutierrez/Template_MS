@@ -1,0 +1,6 @@
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.GlobalUsings.g.cs
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.csproj.AssemblyReference.cache
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.AssemblyInfoInputs.cache
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.AssemblyInfo.cs
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.csproj.CoreCompileInputs.cache
