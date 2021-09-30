@@ -3,10 +3,11 @@ using Template_TMS_Infraestructure.DataContext;
 
 using AutoMapper;
 using MediatR;
+using Template_TMS_Application.Notifications;
 
 namespace Template_TMS_Application.Request.GetAll
 {
-    public class GetAllWeatherForecastHandler : IRequestHandler<GetAllWeatherForecastRequest, IEnumerable<GetAllWeatherForecastListResponse>>
+    public class GetAllWeatherForecastHandler : IRequestHandler<GetAllWeatherForecastRequest, EntityResult<IEnumerable<GetAllWeatherForecastResponse>>>
     {
         private readonly AppDbContext _repository;
         private readonly IMapper _mapper;
@@ -16,12 +17,11 @@ namespace Template_TMS_Application.Request.GetAll
             _repository = repository;
             _mapper = mapper;
         }
-        public async Task<IEnumerable<GetAllWeatherForecastListResponse>> Handle(GetAllWeatherForecastRequest request, CancellationToken cancellationToken)
+        public async Task<EntityResult<IEnumerable<GetAllWeatherForecastResponse>>> Handle(GetAllWeatherForecastRequest request, CancellationToken cancellationToken)
         {
+            var rows = _mapper.Map<IEnumerable<GetAllWeatherForecastResponse>>(_repository.WeatherForecast);
 
-            var aux = _repository.WeatherForecast.ToList();
-
-            return _mapper.Map<IEnumerable<GetAllWeatherForecastListResponse>>(_repository.WeatherForecast);            
+            return new EntityResult<IEnumerable<GetAllWeatherForecastResponse>>(request.Notifications, rows) { StatusCode = StatusCode.Ok };            
         }
     }
 }

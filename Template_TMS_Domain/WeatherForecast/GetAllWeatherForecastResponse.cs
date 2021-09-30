@@ -1,6 +1,6 @@
 namespace Template_TMS
 {
-    public class GetAllWeatherForecastListResponse
+    public class GetAllWeatherForecastResponse
     {        
         public DateTime Date { get; set; }
 

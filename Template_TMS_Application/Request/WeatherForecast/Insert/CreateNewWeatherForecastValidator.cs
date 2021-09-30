@@ -1,5 +1,7 @@
 ﻿using FluentValidation;
 
+using Template_TMS_Application.Notifications;
+
 namespace Template_TMS_Application.Request.WeatherForecast.Insert
 {
     public class CreateNewWeatherForecastValidator : AbstractValidator<CreateNewWeatherForecastRequest>
@@ -7,13 +9,13 @@ namespace Template_TMS_Application.Request.WeatherForecast.Insert
         public CreateNewWeatherForecastValidator()
         {
             RuleFor(x => x.TemperatureC)
-                .ExclusiveBetween(1,99)
-                .WithMessage("La temperatura tiene que estar comprendida entre 1 y 99 grados");
+                .ExclusiveBetween(1, 99)
+                .WithMessage(ErrorTypeResult.TemperatureCIsNegative.MsgError);
 
             RuleFor(x => x.Descripcion)
                 .NotNull()
                 .NotEmpty()
-                .WithMessage("Hace falta una descripción");
+                .WithMessage(ErrorTypeResult.DescriptionIsNullOrEmpty.MsgError);
         }
     }
 }

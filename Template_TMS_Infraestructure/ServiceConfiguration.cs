@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Reflection;
+
+using FluentValidation.AspNetCore;
+
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
 using Template_TMS_Infraestructure.Providers;
@@ -8,7 +12,11 @@ public static class ServiceConfiguration
     public static IServiceCollection ConfigureServices(this IServiceCollection services)
     {
         services.AddAutoMapper(typeof(ServiceConfiguration));
-        services.AddControllers();
+
+        services.AddControllers().AddFluentValidation(fv =>
+        {
+            fv.RegisterValidatorsFromAssembly(Assembly.Load("Template_TMS_Application"));
+        });
 
         services.AddSwaggerGen(c =>
         {
@@ -18,8 +26,6 @@ public static class ServiceConfiguration
         services.ConfigureMediatrServices();
 
         services.ConfigureMvcServices();
-
-        services.ConfigureKafkaServices();
         
         services.ConfigurePersistenceServices();        
 

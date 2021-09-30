@@ -9,7 +9,7 @@ namespace Template_TMS_Infraestructure.Profiles
     {
         public WeatherClient()
         {
-            CreateMap<WeatherForecastDb, GetAllWeatherForecastListResponse> ();
+            CreateMap<WeatherForecastDb, GetAllWeatherForecastResponse> ();
         }
     }
 }

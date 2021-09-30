@@ -10,7 +10,6 @@ C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\bin\D
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\bin\Debug\net6.0\Template_TMS_Infraestructure.pdb
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\bin\Debug\net6.0\Template_TMS_Domain.dll
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\bin\Debug\net6.0\Template_TMS_Domain.pdb
-C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.csproj.CopyComplete
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.dll
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\ref\Template_TMS_Infraestructure.dll
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS_Infraestructure\obj\Debug\net6.0\Template_TMS_Infraestructure.pdb

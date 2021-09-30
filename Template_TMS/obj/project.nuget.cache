@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "WEbyKJBtPZWwqYZDII23CvV7t2NV73ICQGh6pFxfu8dU+CEFrUHZ4lCGysRsQuxtRfpzvWjjHucsyPQsJotiHQ==",
+  "dgSpecHash": "SMxJersz16V1bsSfrMxGYz7/K5oTLBZnMitCPWnyRvmeyBf2xS0f2+xJfQlZQYW4lCvIeDFfaBF6v7FlCby3Ug==",
   "success": true,
   "projectFilePath": "C:\\Users\\lgutierrez\\source\\repos\\Template_TMS\\Template_TMS\\Template_TMS_Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lgutierrez\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\lgutierrez\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\lgutierrez\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\lgutierrez\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

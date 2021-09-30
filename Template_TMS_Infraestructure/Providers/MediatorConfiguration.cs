@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 
 using MediatR;
+using FluentValidation;
 
 namespace Template_TMS_Infraestructure.Providers
 {
@@ -9,7 +10,7 @@ namespace Template_TMS_Infraestructure.Providers
     {
         public static IServiceCollection ConfigureMediatrServices(this IServiceCollection services)
         {            
-            services.AddMediatR(Assembly.Load("Template_TMS_Application"));                        
+            services.AddMediatR(Assembly.Load("Template_TMS_Application"));            
 
             return services;
         }

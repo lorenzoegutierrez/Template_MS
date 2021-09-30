@@ -40,4 +40,5 @@ C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\bin\Debug\net6.0\Flue
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\obj\Debug\net6.0\Template_TMS_Api.csproj.CopyComplete
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\lgutierrez\source\repos\Template_TMS\Template_TMS\bin\Debug\net6.0\FluentValidation.AspNetCore.dll

@@ -1,8 +1,9 @@
-using Microsoft.OpenApi.Models;
 
-using Template_TMS_Infraestructure;
+using Template_TMS_Api.Presenters;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddTransient<IBasePresenter, BasePresenter>();
 
 builder.Services.ConfigureServices();
 
